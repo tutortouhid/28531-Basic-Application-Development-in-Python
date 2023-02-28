@@ -1,0 +1,3 @@
+import math
+n = int(input(Enter the Value = ))
+print(Factorial Value =,math.factorial(n))
