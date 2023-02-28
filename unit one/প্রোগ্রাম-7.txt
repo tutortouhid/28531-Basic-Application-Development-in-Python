@@ -1,0 +1,13 @@
+প্রোগ্রাম-৭:ফাংশন ব্যবহার করে এিভুজ ক্ষেত্রের ক্ষেত্রফল নির্ণয় করার   প্রোগ্রাম লেখ।
+import math
+def Triangle():
+    a = int(input("Enter the value of a :")
+    b = int(input("Enter the value of b :")
+    c = int(input("Enter the value of c :")
+    if((a+b)<c and (b+c)>a and (c+b)>b):
+            s = (a+b+c)/2
+            Area = math.sqrt(s*(s-a)*(s-b)*(s-c))
+            print("Area of the triangle is :", Area)
+    else:
+        print("The triangle is not possible")
+Triangle()

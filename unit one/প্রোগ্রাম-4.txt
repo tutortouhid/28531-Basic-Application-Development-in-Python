@@ -1,0 +1,8 @@
+প্রোগ্রাম-৪:ফাংশন ব্যবহার করে  কোনো সংখ্যার ফ্যাক্টরিয়ার মান  নির্ণয়ের প্রোগ্রাম।
+def factorial(n):
+    if n==0:
+        return 1
+    else:
+        return n*factorial(n-1)
+n = int(input("Input a number to compute the factorial:"))
+print(factorial(n))

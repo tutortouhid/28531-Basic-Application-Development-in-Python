@@ -1,0 +1,7 @@
+প্রোগ্রাম-৮:ফাংশন ব্যবহার করে বৃওের ক্ষেত্রফল নির্ণয়ের   প্রোগ্রাম তৈরি কর।
+import math
+def calculate_area(radius):
+    myarea = math.pi*radius**2
+    return myarea
+radius= calculate_area(int(input("Please input the radius:")))
+print("The area of circle is :",radius)

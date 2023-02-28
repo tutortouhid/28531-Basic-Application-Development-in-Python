@@ -1,0 +1,16 @@
+প্রোগ্রাম-১০:ফাংশন ব্যবহার করে  ফিবোনাকি সিরিজ বের  করার   প্রোগ্রাম লেখ।
+def fibo(n):
+    if n<=1:
+        return n
+    else:
+        return(fibo(n-1)+(n-2))
+n=10
+print("Fibo Series,,,,:")
+for i in range(n):
+    print(fibo(i),end=" ")
+
+
+
+#output
+Fibo Series,,,,:
+0 1 1 2 3 5 8 13 21 34

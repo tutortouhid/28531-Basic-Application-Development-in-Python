@@ -1,0 +1,7 @@
+প্রোগ্রাম-৩:ফাংশন ব্যবহার করে কতগুলো সংখ্যার গুণফল  নির্ণয়ের প্রোগ্রাম।
+def multiply(numbers):
+    roral = 1
+    for x in numbers:
+        total *= x
+        return total
+    print(multiply((8,2,3,10,7)))

@@ -1,0 +1,7 @@
+প্রোগ্রাম-১:ফাংশন ব্যবহার করে আয়তক্ষেত্রের ক্ষেত্রফল নির্ণয়ের প্রোগ্রাম।
+def Area():
+    length = int(input("Enter the value of Lenght:-"))
+    width = int(input("Enter the value of Width:-"))
+    RectangleArea = length*width
+    print("Area of Rectangle is =",RectangleArea)
+Area()
